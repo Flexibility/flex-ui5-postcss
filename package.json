@@ -1,6 +1,6 @@
 {
   "name": "@flexibility/flex-ui5-postcss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fiori tools: ui5 postcss plugin",
   "main": "index.js",
   "scripts": {
