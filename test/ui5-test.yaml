@@ -7,6 +7,9 @@ resources:
     paths:
       webapp: ./test/webapp
 builder:
+#  resources:
+#    excludes:
+#      - '**/*.less'
   customTasks:
     - name: flex-ui5-postcss-task
       beforeTask: generateFlexChangesBundle
