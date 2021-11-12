@@ -1,0 +1,25 @@
+specVersion: '2.3'
+metadata:
+  name: flex-ui5-postcss
+type: application
+resources:
+  configuration:
+    paths:
+      webapp: ./test/webapp
+builder:
+  customTasks:
+    - name: flex-ui5-postcss-task
+      beforeTask: generateFlexChangesBundle
+#server:
+#  customMiddleware:
+#    - name: flex-ui5-postcss-middleware
+#      beforeMiddleware: serveResources
+
+---
+specVersion: "2.3"
+kind: extension
+type: task
+metadata:
+  name: flex-ui5-postcss-task
+task:
+  path: lib/flex-ui5-postcss/task.js

@@ -1,0 +1,16 @@
+specVersion: "2.3"
+kind: extension
+type: task
+metadata:
+  name: flex-ui5-postcss-task
+task:
+  path: lib/flex-ui5-postcss/task.js
+#---
+#specVersion: "2.3"
+#kind: extension
+#type: server-middleware
+#metadata:
+#  name: ui5-middleware-babel
+#middleware:
+#  path: lib/flex-ui5-postcss/middleware.js
+#---
